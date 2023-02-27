@@ -6,7 +6,7 @@
 /*   By: mabahani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 10:38:49 by mabahani          #+#    #+#             */
-/*   Updated: 2022/10/29 17:30:35 by mabahani         ###   ########.fr       */
+/*   Updated: 2023/02/27 18:15:03 by mabahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,8 @@
 
 size_t	ft_strlen(const char *s)
 {
-	//protection to safely impliment it on other functions 
 	if (!s)
-		return(NULL);
+		return(0);
 	size_t	i;
 
 	i = 0;

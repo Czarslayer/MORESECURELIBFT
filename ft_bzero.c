@@ -6,7 +6,7 @@
 /*   By: mabahani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 14:26:34 by mabahani          #+#    #+#             */
-/*   Updated: 2022/10/29 17:36:17 by mabahani         ###   ########.fr       */
+/*   Updated: 2023/02/27 18:14:17 by mabahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_bzero(void *s, size_t n)
 {
 	if(!s)
-		return(NULL);//already protected from empty string fuck SIG ;)
+		return ;
 	size_t	i;
 
 	i = 0;
